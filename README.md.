@@ -1,0 +1,38 @@
+# ESP32 Smart Refrigerator
+
+## Overview
+An IoT-based Smart Refrigerator using ESP32 to monitor temperature and humidity and control cooling automatically.
+
+## Features
+- Real-time temperature monitoring
+- Humidity monitoring
+- Automatic cooling control
+- Manual and automatic operating modes
+- Blynk IoT mobile application
+- Remote refrigerator monitoring
+
+## Hardware Components
+- ESP32 DevKit V1
+- DHT11 Temperature and Humidity Sensor
+- Relay Module
+- MQ135 Gas Sensor
+- Connecting wires
+- Cooling fan
+
+## Software & Technologies
+- Arduino IDE
+- ESP32
+- Embedded C++
+- Blynk IoT
+- Wi-Fi
+
+## Working
+The ESP32 reads temperature and humidity from the DHT11 sensor. Based on the programmed conditions, it controls the cooling system through a relay. Users can monitor the system remotely through the Blynk application.
+
+## Developer
+Sanchit Khobragade
+
+Electronics and Telecommunication Engineering
+
+## Project Status
+Development in progress.
